@@ -10,7 +10,7 @@
 <body>
 	<h3 class="text-center">Listado de Estudiantes</h3>
 	<table>
-		<jsp:useBean id="eDao" class="universidadweb2.dao.EstudiantesDao"
+		<jsp:useBean id="o eD" class="w dao.EstudiantesD"
 			scope="request">
 		</jsp:useBean>
 		<div class="container text-left">

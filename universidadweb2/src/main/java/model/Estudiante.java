@@ -1,4 +1,4 @@
-package universidadweb2.model;
+package model;
 
 import java.io.Serializable;
 import javax.persistence.*;

@@ -1,6 +1,6 @@
-package universidadweb2.dao;
+package dao;
 
-import universidadweb2.model.Estudiante;
+import model.Estudiante;
 import util.Conexion;
 
 public class EstudiantesDao extends Conexion<Estudiante> {

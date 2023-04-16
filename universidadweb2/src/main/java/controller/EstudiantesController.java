@@ -1,4 +1,4 @@
-package universidadweb2.controller;
+package controller;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -11,8 +11,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import universidadweb2.dao.EstudiantesDao;
-import universidadweb2.model.Estudiante;
+import dao.EstudiantesDao;
+import model.Estudiante;
 
 @WebServlet({"/EstudiantesController", "/"})
 public class EstudiantesController extends HttpServlet {

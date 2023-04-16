@@ -10,7 +10,7 @@
 <body>
 	<h3 class="text-center">Listado de Estudiantes</h3>
 	<table>
-		<jsp:useBean id="o eD" class="w dao.EstudiantesD"
+		<jsp:useBean id="eDao" class="dao.EstudiantesDao"
 			scope="request">
 		</jsp:useBean>
 		<div class="container text-left">
@@ -35,9 +35,9 @@
 				<td><c:out value="${estudiante.nota2}" /></td>
 				<td><c:out value="${estudiante.nota3}" /></td>
 				<td><c:out value="${estudiante.promedio}" /></td>
-				<td><a href="edit?id=<c:out value='${usuario.id}' />">Editar</a>
+				<td><a href="edit?id=<c:out value='${estudiante.id}' />">Editar</a>
 					&nbsp;&nbsp;&nbsp;&nbsp; <a
-					href="delete?id=<c:out value='${usuario.id}' />">Elimnar</a></td>
+					href="delete?id=<c:out value='${estudiante.id}' />">Elimnar</a></td>
 			</tr>
 		</c:forEach>
 	</table>

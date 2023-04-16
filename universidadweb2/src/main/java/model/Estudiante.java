@@ -35,11 +35,10 @@ public class Estudiante implements Serializable {
 
 	private Integer nota3;
 	
-	@Transient
 	private Integer promedio;
 	
 	
-	public Estudiante(String apellido, String nombre, Integer nota1, Integer nota2, Integer nota3, Integer promedio) {
+	public Estudiante(String nombre, String apellido, Integer nota1, Integer nota2, Integer nota3, Integer promedio) {
 		this.apellido = apellido;
 		this.nombre = nombre;
 		this.nota1 = nota1;
